@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Draven_Example' do
+  pod 'Draven', :path => '../'
+
+  target 'Draven_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

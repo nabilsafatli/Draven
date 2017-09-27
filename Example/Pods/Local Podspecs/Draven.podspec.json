@@ -1,0 +1,23 @@
+{
+  "name": "Draven",
+  "version": "0.1.0",
+  "summary": "ABTest and agile tool written in Swift to help developers deliver safely new features.",
+  "description": "Draven is an ABTest and agile tool created to help developers deliver safely new features.\nThe idea is to make it possible to toggle features and control percentage of ABTesting remotely.",
+  "homepage": "https://github.com/nabilsafatli/Draven",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nabil Safatli": "safatli.nabil@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nabilsafatli/Draven.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/nabil_safatli",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Draven/Classes/**/*"
+}
