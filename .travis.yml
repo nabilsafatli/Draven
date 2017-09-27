@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode9.0
+script:
+  - xcodebuild -scheme Draven-Example -workspace Example/Draven.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.3' build test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
