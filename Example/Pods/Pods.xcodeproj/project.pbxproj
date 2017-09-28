@@ -12,6 +12,7 @@
 		194063F2197142E9663AB2BD342D8E0C /* Pods-Draven_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E038497A796C539CD61D2352FF347C6 /* Pods-Draven_Tests-dummy.m */; };
 		413D4DAFE89433B8D59F6D16DAC545BC /* Pods-Draven_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E2E3C60C3DF406074BEC8A47BFAE35 /* Pods-Draven_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D9C9BA67450DA18A865DC90D44A71A /* Draven-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B87CD2D46B5ECB9B503F33AA4968393 /* Draven-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BAC427B1F7EFDD5004DDD36 /* Draven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64112230460DA3940365739A9AE78F32 /* Draven.swift */; };
 		55B7EF0890FDE55FBB12390909C59F07 /* Draven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64112230460DA3940365739A9AE78F32 /* Draven.swift */; };
 		C54AE9E15A8F354BD68AADF16BDF82F8 /* Pods-Draven_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FED8CCC46EC143C8404DF47A13014F4 /* Pods-Draven_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C64D56AEB63377D6B19A9AD648493F1A /* Pods-Draven_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A26A98A7494CC6B64BB1196C7F824 /* Pods-Draven_Example-dummy.m */; };
@@ -30,11 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004B1CE781DDDABD28C0F34BB6FB13D7 /* Draven.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Draven.modulemap; sourceTree = "<group>"; };
+		004B1CE781DDDABD28C0F34BB6FB13D7 /* Draven.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Draven.modulemap; sourceTree = "<group>"; };
 		0FCC985D94C5FC7D696E7FFD997D9C33 /* Draven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Draven-dummy.m"; sourceTree = "<group>"; };
 		1E038497A796C539CD61D2352FF347C6 /* Pods-Draven_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Draven_Tests-dummy.m"; sourceTree = "<group>"; };
 		30654DFC68DC909126047BA14177079A /* Pods-Draven_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Draven_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C39F7233C61B0EBA006BB145CF997C6 /* Draven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Draven.framework; path = Draven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C39F7233C61B0EBA006BB145CF997C6 /* Draven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Draven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5B64955E417A04512BC3CBCA7B58C3 /* Pods-Draven_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Draven_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CB4C359B971A3BB4724763673FCC885 /* Pods-Draven_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Draven_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5889DE52202D1A634E3AE4BD5CBA65AE /* Draven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draven-prefix.pch"; sourceTree = "<group>"; };
@@ -44,7 +45,7 @@
 		682A26A98A7494CC6B64BB1196C7F824 /* Pods-Draven_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Draven_Example-dummy.m"; sourceTree = "<group>"; };
 		7FED8CCC46EC143C8404DF47A13014F4 /* Pods-Draven_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Draven_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8AEB859890D89564A7942ACA009B94C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		968303F907899D9CBF9A20064E7954AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971CF556FFF3F042D8E4B012E1C03490 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99AEDD50A21FEAF6B42B7B1378AA1D7E /* Pods-Draven_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Draven_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,16 +53,16 @@
 		9A364BE34FA3693FF507C3CD5E4EDF67 /* Pods-Draven_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Draven_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9B87CD2D46B5ECB9B503F33AA4968393 /* Draven-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draven-umbrella.h"; sourceTree = "<group>"; };
 		9BA7D9CF678B0CCACA3D2D35CE2CFC26 /* Pods-Draven_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Draven_Example-resources.sh"; sourceTree = "<group>"; };
-		9E6D9FAB50F9D540C41120537226B6D4 /* Pods-Draven_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Draven_Example.modulemap"; sourceTree = "<group>"; };
+		9E6D9FAB50F9D540C41120537226B6D4 /* Pods-Draven_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Draven_Example.modulemap"; sourceTree = "<group>"; };
 		B9DF90A076C6079D39BE79E545DA85C4 /* Pods-Draven_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Draven_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6C395CFFBFDB497ECB38C75CCFFDBB3 /* Draven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Draven.xcconfig; sourceTree = "<group>"; };
 		C96389CC693F1FD4D397FD1312D4F11D /* Pods-Draven_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Draven_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4E2E3C60C3DF406074BEC8A47BFAE35 /* Pods-Draven_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Draven_Example-umbrella.h"; sourceTree = "<group>"; };
-		D6473646592B62BEA4ABBE64A73492D0 /* Pods_Draven_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Draven_Tests.framework; path = "Pods-Draven_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6473646592B62BEA4ABBE64A73492D0 /* Pods_Draven_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Draven_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E798255C25E67954702617622862FA /* Pods-Draven_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Draven_Tests-resources.sh"; sourceTree = "<group>"; };
 		E1F620CE6C288F090DC653007A2D2978 /* Pods-Draven_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Draven_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ED970011DF2DF2D8F7C27D495E4336F3 /* Pods_Draven_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Draven_Example.framework; path = "Pods-Draven_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F044D337FC54C34D56ACF06F4C112972 /* Pods-Draven_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Draven_Tests.modulemap"; sourceTree = "<group>"; };
+		ED970011DF2DF2D8F7C27D495E4336F3 /* Pods_Draven_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Draven_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F044D337FC54C34D56ACF06F4C112972 /* Pods-Draven_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Draven_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				194063F2197142E9663AB2BD342D8E0C /* Pods-Draven_Tests-dummy.m in Sources */,
+				4BAC427B1F7EFDD5004DDD36 /* Draven.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
