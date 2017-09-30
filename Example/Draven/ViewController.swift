@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Draven
-//
-//  Created by nabilsafatli on 09/30/2017.
-//  Copyright (c) 2017 nabilsafatli. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -21,4 +13,3 @@ class ViewController: UIViewController {
     }
 
 }
-

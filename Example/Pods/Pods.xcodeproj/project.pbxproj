@@ -16,6 +16,7 @@
 		C64D56AEB63377D6B19A9AD648493F1A /* Pods-Draven_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A26A98A7494CC6B64BB1196C7F824 /* Pods-Draven_Example-dummy.m */; };
 		CF89576A0D9BE235004D017E05C034C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D1BC0EA802CAD1F6DE49F555F6FBF65C /* Draven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A740B6AAED9E55070028090949CB0E /* Draven-dummy.m */; };
+		FBF02DF81F7FD2BF000E48A6 /* Draven.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF02DF71F7FD2BF000E48A6 /* Draven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		ED970011DF2DF2D8F7C27D495E4336F3 /* Pods_Draven_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Draven_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F044D337FC54C34D56ACF06F4C112972 /* Pods-Draven_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Draven_Tests.modulemap"; sourceTree = "<group>"; };
 		F76DB730D7B33E95B33DB0805EC467BA /* Draven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Draven.xcconfig; sourceTree = "<group>"; };
+		FBF02DF71F7FD2BF000E48A6 /* Draven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Draven.swift; path = Draven/Classes/Draven.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		008C362A2A29AB3AB957D895BD5A9872 /* Draven */ = {
 			isa = PBXGroup;
 			children = (
+				FBF02DF71F7FD2BF000E48A6 /* Draven.swift */,
 				9A3BD94F0AA5673786E996D964FA837D /* Support Files */,
 			);
 			name = Draven;
@@ -293,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					B0C85B5E1FDEFF7B372D96BAEE1A79C6 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BC0EA802CAD1F6DE49F555F6FBF65C /* Draven-dummy.m in Sources */,
+				FBF02DF81F7FD2BF000E48A6 /* Draven.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F76DB730D7B33E95B33DB0805EC467BA /* Draven.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -634,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F76DB730D7B33E95B33DB0805EC467BA /* Draven.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
