@@ -1,10 +1,10 @@
 language: objective-c
 
-osx_image: xcode9.0
+osx_image: xcode8.3
 
 before_install:
-  - DEVICE='iPhone 8'
-  - IOS_VERSION='11.0.1'
+  - DEVICE='iPhone 7'
+  - IOS_VERSION='10.3.1'
   - SIMULATOR_ID=$(xcrun instruments -s | grep -o "$DEVICE ($IOS_VERSION) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/")
 
 script:
